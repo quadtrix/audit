@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"quadtrix.nl/basicqueue"
+	"github.com/quadtrix/basicqueue"
 )
 
 const (
