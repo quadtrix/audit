@@ -4,7 +4,7 @@ go 1.18
 
 require (
 	github.com/google/uuid v1.3.0
-	github.com/quadtrix/basicqueue v0.0.0-20220906210829-976526254a22
+	github.com/quadtrix/basicqueue v0.0.0-20220907055608-7d0ce60e34b4
 )
 
 require (

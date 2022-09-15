@@ -62,17 +62,20 @@ func (au Audit) queuePolling() {
 				continue // ignore this bad read (we will be killed anyway)
 			}
 			stopHistory = append(stopHistory, message.MessageID)
-			if message.MessageType == "STOP" {
-				auditDone := false
-				for !auditDone {
-					msgcount, _, _, _, _ := au.asyncQueryQueue.QStats(au.queue_identifier)
-					if msgcount == 0 {
-						auditDone = true
+			if message.Destination == "audit" || message.Destination == "all" {
+				switch message.MessageType {
+				case "STOP":
+					auditDone := false
+					for !auditDone {
+						msgcount, _, _, _, _ := au.asyncQueryQueue.QStats(au.queue_identifier)
+						if msgcount == 0 {
+							auditDone = true
+						}
+						time.Sleep(10 * time.Millisecond)
 					}
-					time.Sleep(time.Second)
+					au.eventQueue.AddJsonMessage(au.queue_identifier, "audit", "main", "AUDITSTOPPED", "")
+					break
 				}
-				au.eventQueue.AddJsonMessage(au.queue_identifier, "audit", "main", "AUDITSTOPPED", "")
-				break
 			}
 		}
 		time.Sleep(time.Second)
