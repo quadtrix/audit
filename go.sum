@@ -1,8 +1,8 @@
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
 github.com/google/uuid v1.3.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/quadtrix/aesengine v0.0.0-20220906202953-d3c4a0850b26 h1:xNQ186Ru2NgfgRMoLtK1iIGi4jtAodstqHNJ+mqe6ME=
-github.com/quadtrix/aesengine v0.0.0-20220906202953-d3c4a0850b26/go.mod h1:A7fSAFCFxRO+vNvSbh8ocVc2g17eKvNJvp+HFzlmMIA=
-github.com/quadtrix/basicqueue v0.0.0-20220907055608-7d0ce60e34b4 h1:6RmmWBa6KgldGbH1WH/W1ARseIxULnbRb9rOE3fZuEg=
-github.com/quadtrix/basicqueue v0.0.0-20220907055608-7d0ce60e34b4/go.mod h1:Z8Y+zVZXQmmOoH8LBMluJVJ/kw/GelwY8aZch1GuyFc=
-github.com/quadtrix/servicelogger v0.0.0-20220906210303-16c75e1f730b h1:BfgXnLrzzQob8vVYETPZJEYwtTYCtNuXT68JF7XjzEk=
-github.com/quadtrix/servicelogger v0.0.0-20220906210303-16c75e1f730b/go.mod h1:pnmSwIr8KxPbIOMhsIisMWo2HdzNxwdpIRilmAMYwYk=
+github.com/quadtrix/aesengine v0.0.0-20220907055548-598d44c87ea8 h1:odhv8xDihZS1YTDq9c+IlSxxCJx590A/d8rVv0ENZvs=
+github.com/quadtrix/aesengine v0.0.0-20220907055548-598d44c87ea8/go.mod h1:b5iN1GjSIoU+ztXQGk/K1BQR08pI2F4xdRHsMiMd6WY=
+github.com/quadtrix/basicqueue v0.0.0-20221010155045-2f326ad09ed2 h1:pRqphta2OhuXDKgnfIek58JRyuXTTWfxGjzZLeLVRGI=
+github.com/quadtrix/basicqueue v0.0.0-20221010155045-2f326ad09ed2/go.mod h1:s7zeId4YtX5lSaA1PQsSA2fD2toeZH1Aib0jNAx3aHI=
+github.com/quadtrix/servicelogger v0.0.0-20221003131534-7ba9cadd9093 h1:4U0RPrNTS3LkVD6m1xz9pmQphv2HRisXLN/12I4pazg=
+github.com/quadtrix/servicelogger v0.0.0-20221003131534-7ba9cadd9093/go.mod h1:ITv9L1MAFwu6E+sv6rrAGTzoKD3NRX7Qtcbui9g5QiM=
